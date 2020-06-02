@@ -1,0 +1,8 @@
+Origin: Sean Staffiery
+Label: A Cydia Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Sean Staffiery's Cydia Repo
