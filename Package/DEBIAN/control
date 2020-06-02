@@ -1,8 +1,11 @@
-Origin: Sean Staffiery
-Label: A Cydia Repo
-Suite: stable
+
+Package: net.seanstaffiery.package
+Name: Test Package
 Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm
-Components: main
-Description: Sean Staffiery's Cydia Repo
+Architecture: iphoneos-arm
+Description: Test Package
+Depiction: http://seanstaffiery.github.io/packages/package.html
+Homepage: http://seanstaffiery.github.io
+Maintainer: Sean Staffiery <sean@seanstaffiery.com>
+Author: Sean Staffiery <sean@seanstaffiery.com>
+Section: Themes
