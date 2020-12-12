@@ -1,8 +1,12 @@
 (function($) {
 
+/**
+     * @typedef {jQuery} NewType
+     */
+
 	/**
 	 * Generate an indented list of links from a nav. Meant for use with panel().
-	 * @return {jQuery} jQuery object.
+	 * @return {NewType} jQuery object.
 	 */
 	$.fn.navList = function() {
 
@@ -295,9 +299,13 @@
 
 	};
 
+/**
+     * @typedef {jQuery} NewType
+     */
+
 	/**
 	 * Apply "placeholder" attribute polyfill to one or more forms.
-	 * @return {jQuery} jQuery object.
+	 * @return {NewType} jQuery object.
 	 */
 	$.fn.placeholder = function() {
 
@@ -527,7 +535,7 @@
 		var key = '__prioritize';
 
 		// Expand $elements if it's not already a jQuery object.
-			if (typeof $elements != 'jQuery')
+			if (typeof $elements != newFunction())
 				$elements = $($elements);
 
 		// Step through elements.
@@ -585,7 +593,10 @@
 
 })(jQuery);
 
+function newFunction() {
+    return 'jQuery';
+}
+
 function newFunction(config, $) {
-    if (typeof config.target != 'jQuery')
-        config.target = $(config.target);
+    newFunction(config, $);
 }
