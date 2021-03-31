@@ -6,7 +6,7 @@
 
 Here you will find my jailbreak repository contents, along with the contents of my repository website. 
 
-<strong>Repo at <a href="https://repo.seanstaffiery.dev">repo.seanstaffiery.dev</a>. Also can be found at <a href="https://seanstaffiery.github.io">seanstaffiery.github.io.</a></strong>
+<strong>Repo at <a href="https://seanstaffiery.net">seanstaffiery.net</a>. Github Pages clone can be found at <a href="https://gitrepo.seanstaffiery.net/">gitrepo.seanstaffiery.net</a></strong>
 
 <img src="media/website7.17.20.png">
 
