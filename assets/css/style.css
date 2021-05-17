@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80');
+    background-size: 1920px 1080px;
+    text-align: center;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: bisque;
+    position: fixed;
+    height: 70%;
+    overflow: auto;
+    border-radius: 30px;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: saddlebrown;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  .sidebar a.active {
+    background-color: olive;
+    color: black;
+  }
+  .sidebar a:hover:not(.active) {
+    background-color: olive;
+    color: black;
+  }
+
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 800px;
+  }
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+ 
+.header {
+    font-family: Lato;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+button {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: bisque;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+}
+.text {
+    font-family: Lato;
+    font-size: 24px;
+    text-align: center;
+    color: white;  
+}
+
+.sean {
+    font-family: Lato;
+    font-size: 24px;
+    text-align: center;
+    color: white;  
+}
+.featured {
+    font-family: Lato;
+    font-size: 24px;
+    text-align: center;
+    color: white;  
+}
+.browse {
+    font-family: Lato;
+    font-size: 24px;
+    text-align: center;
+    color: white;  
+}
+a:link {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;    
+}
+a:visited {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
